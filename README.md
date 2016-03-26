@@ -8,3 +8,5 @@ The <i>k</i>-means algorithm is a type of unsupervised machine learning algorith
 
 ### The <i>k</i>-Means: A Centroid-Based Technique
 The <i>k</i>-means algorithm takes the input parameter, <i>k</i>, and partitions a set of n objects into <i>k</i> clusters so that the resulting intracluster similarity is high but the intercluster similarity is low. Cluster similarity is measured in regard to the <i>mean</i> value of the objects in a cluster, which can be viewed as the cluster’s <i>centroid or center of gravity</i>.
+
+Suppose a data set, D, contains <i>n</i> objects in Euclidean space. Partitioning methods distribute the objects in D into <i>k</i> clusters, C<sub>1</sub>,..., C<sub>k</sub>, that is C<sub>i</sub> ⊂ D and C<sub>i</sub> ∩ C<sub>j</sub> = ø for (1≤ <i>i,j</i> ≤ <i>k</i>). An objective function is used to asses the partitioning quality so that objects within a cluster are similar to one another but dissimilar to objects in other clusters. This is the objective function aims for high intracluster similarity and low intercluster similarity.
